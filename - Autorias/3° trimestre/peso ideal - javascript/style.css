@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+img {
+    float: right; 
+    height: 400px;
+    margin-right: 200px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+.botao {
+    font-family: Raleway, sans-serif;
+    background-color: white;
+    height: 30px;
+    border: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+    border-color: rgb(187, 187, 187);
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    &:hover {
+    box-shadow: 0 0 40px 40px rgb(103, 161, 236) inset;
+    color: white;
+  }
+}
+
+
+div {
+    margin-left: 50px;
+    margin-top: 100px;
+    background-color: rgb(247, 247, 242);
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+p, h1, h3 {
+    margin-left: 30px;
+}
+
+
